@@ -1,0 +1,29 @@
+<!doctype html>   <!-- schoolTable.html  -->
+ <html lang="ko">
+  <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <style> table,thead,tbody,tfoot,tr,th,td
+    {border:1px solid black; border-collapse:collapse;}
+   </style>   <!-- border-collapse:collapse 단선으로, 반대는 separate -->
+    <title>HTML5 고급 테이블 실습</title>
+  </head>
+  <body>
+   <table>
+   <caption>2018학년도 1학기 시간표</caption>
+   <thead>
+    <tr><th>-</th><th>월</th><th>화</th><th>수</th><th>목</th></tr>
+   </thead>
+   <tbody>
+    <tr><td>1교시</td><td>운영체제</td><td rowspan="2">데이터베이스시스템</td><td rowspan="2">프로젝트관리</td><td rowspan="4">공강</td></tr>
+    <tr><td>2교시</td><td>공강</td>                                                                                                     </tr>
+    <tr><td>3교시</td><td rowspan="2">디지털논리회로</td><td rowspan="2">공강</td><td>데이터베이스시스템</td>                           </tr>
+    <tr><td>4교시</td>                                                            <td rowspan="4">공강</td>                             </tr>
+    <tr><td>5교시</td><td rowspan="2">공강</td><td>디지털논리회로</td>                                         <td rowspan="2">인터넷프로그래밍</td></tr>
+    <tr><td>6교시</td>                         <td rowspan="2">프로젝트관리</td>                                                        </tr>
+    <tr><td>7교시</td><td rowspan="2">대학생활과진로설계</td>                                                  <td rowspan="2">캠퍼스멘토링</td></tr>
+    <tr><td>8교시</td>                                       <td rowspan="2">운영체제</td><td rowspan="2">인터넷프로그래밍</td></tr>
+    <tr><td>9교시</td><td>공강</td>                                                                                        <td>공강</td></tr>    
+   </tbody>
+   <tfoot>
+   </tfoot>
+   </table>
+  </body></html>
