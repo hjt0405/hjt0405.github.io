@@ -1,0 +1,84 @@
+<!doctype html> <!-- timetable.html -->
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link type="text/css" rel="stylesheet" href="mystyle.css"/>
+	<title>HOngSnail</title>
+	<style>
+		header, nav {border:1px solid gray; margin:5px; padding:8px; width:1800;}
+		 section{ border:1px solid gray; margin:5px; padding:8px; width:1000px; float:left;}
+		 section section{width:800px; float:left;}
+		 aside{border:1px solid gray; margin:5px; padding:8px; width:50px; float:left; line-height:30px;}
+		 footer{border:1px solid gray; margin:5px; padding:8px; sheight:50px; clear:both;}
+		 nav ul{margin:0; padding:0;}
+		 nav ul li{display:inline; margin:5px;}
+		 aside ul{margin:0; padding:0;}
+		 aside ul li{display:block; margin:5px;}
+		 aside ul li img{width:50px; height:50px;}
+		 
+		table, thead, tbody, th, tr, td {
+			border:1px solid black; 
+			border-collapse:collaspse; 
+		}
+		td { font-size: 14px; }
+		  
+		.timet1{background-color:#FF4848;}
+		.timet2{background-color:#EDA900;}
+		.timet3{background-color:#FFE400;}
+		.timet4{background-color:#00B700;}
+		.timet5{background-color:#00D8FF;}
+		.timet6{background-color:#4D00ED;}
+		.timet7{background-color:#C98AFF;}
+	</style>
+</head>
+
+<body>
+	<div>
+		<h3> 시간표 <h3>
+		<table>
+		<caption>2018학년도 1학기 시간표</caption>
+			<thead>
+				<tr>
+				<th width="50">-</th>
+				<th width="140">월</th>
+				<th width="140">화</th>
+				<th width="140">수</th>
+				<th width="140">목</th>
+				<th width="140">금</th></tr>
+			</thead>
+			<tbody>
+				<tr><td>1교시</td>
+				<td class="timet1">운영체제</td>
+				<td rowspan="2" class="timet2">데이터베이스 시스템</td>
+				<td rowspan="2" class="timet3">프로젝트 관리</td>
+				<td rowspan="4">-</td>
+				<td rowspan="9">-</td></tr>
+				
+				<tr><td>2교시</td><td>-</td></tr>
+				
+				<tr><td>3교시</td>
+				<td rowspan="2" class="timet4">디지털 논리회로</td>
+				<td rowspan="2">-</td>
+				<td class="timet2">데이터베이스 시스템</td></tr>
+				
+				<tr><td>4교시</td><td rowspan="4">-</td></tr/>
+				
+				<tr><td>5교시</td>
+				<td rowspan="2">-</td>
+				<td class="timet4">디지털 논리회로</td>
+				<td rowspan="2" class="timet5">인터넷 프로그래밍</td></tr>
+				
+				<tr><td>6교시</td><td rowspan="2" class="timet3">프로젝트 관리</td></tr>
+				
+				<tr><td>7교시</td><td rowspan="2" class="timet6">대학생활과 진로설계</td><td rowspan="2" class="timet7">캠퍼스 멘토링</td></tr>
+				
+				<tr><td>8교시</td><td rowspan="2" class="timet1">운영체제</td><td rowspan="2" class="timet5">인터넷 프로그래밍</td></tr>
+				
+				<tr><td>9교시</td><td>-</td><td>-</td></tr>
+			</tbody>
+		</table>
+		<p>비는 시간이 꽤나 많은 편인데 공부에 단 10%도 할애하지 못했다.</p>	
+	</div>
+</body>
+</html>
