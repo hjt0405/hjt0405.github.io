@@ -1,4 +1,4 @@
-<!doctype html> <!-- Main.html -->
+<!doctype html> <!-- epMain.html -->
 <html>
  <head>
   <meta charset="utf-8"/>
@@ -30,7 +30,7 @@
    </nav>  
    <section id="home">
     <article>
-	 <img src="Karma/Drugs.png" alt="IMF를 겪게 해준 애증의 자전거"/>
+	 <img src="Drugs.png" alt="IMF를 겪게 해준 애증의 자전거"/>
 	 <figcaption>IMF를 겪게 해준 애증의 자전거</figcaption>
 	</article> 
    </section>
