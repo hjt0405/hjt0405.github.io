@@ -1,1 +1,60 @@
-d
+<!doctype html> <!-- Main.html -->
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+   header, nav, section, article, aside, footer
+   {border:1px black; margin:5px; padding:8px; width:1000px;}
+   section{width:750px; float:left;}
+   aside{width:221px; float:left; line-height:30px;}
+   footer{height:50px; clear:both;}
+   nav ul{margin:0; padding:0;}
+   nav ul li{display:inline; margin:5px;}
+   aside ul{margin:0; padding:0;}
+   aside ul li{display:block; margin:5px;}
+  </style>
+  <title>HOngSnail</title>
+ </head>
+  <body>
+   <header>
+    <h2> HOngSnail </h2>
+   </header>
+   <nav><!--고정-->
+    <ul>
+    <li><a href="">홈</a></li> <!--자전거 이미지 하나-->
+    <li><a href="">소개</a></li> <!--현재창에서이동, 호구조사?-->
+	<li><a href="">시간표</a></li>  <!--현재창에서이동,했던거좀고쳐서-->
+    <li><a href="">취미생활</a></li> <!--현재창에서이동, 겜,자전거-->
+    </ul>
+   </nav>  
+   <section id="home">
+    <article>
+	 <img src="Karma/Drugs.png" alt="IMF를 겪게 해준 애증의 자전거"/>
+	 <figcaption>IMF를 겪게 해준 애증의 자전거</figcaption>
+	</article> 
+   </section>
+   <aside><!--고정-->
+    <ul>
+     <li>
+	  <a href="https://www.google.co.kr"target"_blank">Google</a>
+	 </li>
+     <li>
+	  <a href="https://www.youtube.com"target"_blank">Youtube</a>
+	 </li>
+	 <li>
+	  <a href="https://github.com"target"_blank">Github</a>
+	 </li>
+	 <li>
+	  <a href="https://www.strava.com"target"_blank">Strava </a>
+	 </li>
+	 <li>
+	  <a href="https://rainbow6.ubisoft.com"target"_blank">Rainbow6</a>
+	 </li>
+    </ul>
+   </aside>
+  <footer><!--고정-->
+   <p>&copy; 20XX Made by Korea. All rights reserved.</p>
+  </footer>
+ </body>
+</html>
