@@ -1,0 +1,15 @@
+<!doctype html> <!-- hobby.html -->
+<html>
+<head>
+<title>HOngSnail</title>
+</head>
+<body>
+<div><h3 text-align:center; color:blue;> 자전거 </h3>
+ <img src="image/Drugs.png" align="center" width="380" height="280" alt="자전거">	
+ <p>2018년2월? 약270만원에 구입하였다. 두달치 알바비가 대부분 들어갔다.</p>
+<p>2018년3월~6월기준 1043km 라이딩했다. 게을러서 500km는 덜 탄것 같다.</p>
+<p>올해목표 10월까지 2500km(11월 부터는 기온문제로 라이딩 불가)</p>
+<p>5월부터 점점 더워져서 야간라이딩만 참여하고 있으며 주로 대전 외곽으로 나간다.</p>
+</div>
+</body>
+</html>
