@@ -2,6 +2,11 @@ body { height: 100%; background-color: white; }
 .wrap { margin:0; margin-right: auto; margin-left: auto;
 	width:800px; min-height:600px;
 	text-align:left; background-color: white; }
+.MyPhoto {width: 40px; height: 40px; object-fit: cover; object-position: top; border-radius: 30%;}
+table.info {text-align: center; line-height: 1.5; margin : 20px 10px;}
+table.info th{ width: 147px; font-weight: bold; font-size:200%; color: #153d73; }
+table.info td { width: 349px; padding: 10px; font-weight: bold; color: #222222;font-size:20px;  }
+  .name {font-family:"arial", sans-serif;  line-height:200%; font-size:100px; }
 
 header { height: 60px; margin: 10px; }
 
