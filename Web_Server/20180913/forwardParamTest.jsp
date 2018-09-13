@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <% request.setCharacterEncoding("utf-8");%>
-<!doctype html> <!-- forwardParamTest,jsp -->
+<!doctype html> <!-- forwardParamTest.jsp -->
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=uft-8"/>
